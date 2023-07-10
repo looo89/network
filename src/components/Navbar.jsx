@@ -1,4 +1,4 @@
-import { AppBar, Badge, InputBase, Toolbar, Typography, Box, styled, Avatar, Switch } from "@mui/material";
+import { AppBar, Badge, InputBase, Toolbar, Box, styled, Avatar, Switch } from "@mui/material";
 import Diversity3Icon from '@mui/icons-material/Diversity3';
 import MailIcon from '@mui/icons-material/Mail';
 import React, { useState } from "react";

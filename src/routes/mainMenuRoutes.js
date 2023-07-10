@@ -19,6 +19,12 @@ export const mainMenuRoutes = () =>
             icon: "profile"
         },
         {
+            path: NEWS_ROUTE,
+            title: "News",
+            component: News,
+            icon: "news"
+        },
+        {
             path: MESSAGES_ROUTE,
             title: "Messages",
             component: Messages,
@@ -29,12 +35,6 @@ export const mainMenuRoutes = () =>
             title: "Friends",
             component: Friends,
             icon: "friends"
-        },
-        {
-            path: NEWS_ROUTE,
-            title: "News",
-            component: News,
-            icon: "news"
         },
         {
             path: PHOTOS_ROUTE,
